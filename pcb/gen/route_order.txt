@@ -1,0 +1,6 @@
+# MCU nets that are routed before the others, first line first.
+# Written by `build.py order`. Run it again after moving parts or pins, when `build.py place`
+# reports unrouted pads.
+I2C_SCL
+I2C_SDA
+ENC_B

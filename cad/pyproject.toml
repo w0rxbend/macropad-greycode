@@ -1,0 +1,21 @@
+[project]
+name = "greycode-case"
+version = "0.1.0"
+description = "CNC aluminium case for the greycode macropad (build123d): checks, STEP/STL exports, renders"
+requires-python = ">=3.12"
+dependencies = [
+    "build123d>=0.13",
+    "trimesh>=4.0",
+    "numpy>=1.26",
+    "matplotlib>=3.8",  # PNG writing
+    "rtree>=1.0",  # trimesh ray queries for the wall check
+]
+
+[dependency-groups]
+dev = ["ruff>=0.6"]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B", "UP"]

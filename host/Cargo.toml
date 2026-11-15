@@ -1,0 +1,18 @@
+[package]
+name = "greyd"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.80"
+description = "Host bridge for the greycode macropad: app-aware profiles, LED alerts, host actions"
+license = "MIT"
+publish = false
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+toml = { version = "0.8", default-features = false, features = ["parse"] }
+x11rb = "0.14"
+
+[profile.release]
+lto = true
+strip = true

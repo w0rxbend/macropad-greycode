@@ -1,0 +1,31 @@
+{
+    "name": "greycode",
+    "lighting": "vialrgb",
+    "matrix": {
+        "rows": 4,
+        "cols": 3
+    },
+    "customKeycodes": [
+        {"name": "HOST_0", "title": "Host action 0 (greyd runs it for the focused app)", "shortName": "HOST0"},
+        {"name": "HOST_1", "title": "Host action 1", "shortName": "HOST1"},
+        {"name": "HOST_2", "title": "Host action 2", "shortName": "HOST2"},
+        {"name": "HOST_3", "title": "Host action 3", "shortName": "HOST3"},
+        {"name": "HOST_4", "title": "Host action 4", "shortName": "HOST4"},
+        {"name": "HOST_5", "title": "Host action 5", "shortName": "HOST5"},
+        {"name": "HOST_6", "title": "Host action 6", "shortName": "HOST6"},
+        {"name": "HOST_7", "title": "Host action 7", "shortName": "HOST7"},
+        {"name": "SK_LINE", "title": "FreeCAD Sketcher line (types G L)", "shortName": "SkLine"},
+        {"name": "SK_CIRCLE", "title": "FreeCAD Sketcher circle (types G C)", "shortName": "SkCirc"},
+        {"name": "SK_RECT", "title": "FreeCAD Sketcher rectangle (types G R)", "shortName": "SkRect"},
+        {"name": "SK_CONSTR", "title": "FreeCAD Sketcher toggle construction (types G N)", "shortName": "SkCons"}
+    ],
+    "layouts": {
+        "keymap": [
+            [{"x": 1}, "0,0\n\n\n\n\n\n\n\n\ne", "0,1\n\n\n\n\n\n\n\n\ne"],
+            [{"x": 2}, "0,2"],
+            ["1,0", "1,1", "1,2"],
+            ["2,0", "2,1", "2,2"],
+            ["3,0", "3,1", "3,2"]
+        ]
+    }
+}

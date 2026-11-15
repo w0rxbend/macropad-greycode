@@ -1,0 +1,12 @@
+# Host-link frames, shared by firmware/test/test_hostlink.c and host/src/protocol.rs.
+# name, then the frame's leading bytes in hex; the rest of the 32-byte report is zero.
+hello            c7 01 01
+heartbeat        c7 02
+profile_freecad  c7 03 01 ff 88 00 46 72 65 65 43 41 44
+profile_none     c7 03 ff 00 00 00
+label_4_pad      c7 04 04 50 61 64
+alert_warn       c7 05 03 02 00 00 00 0a 00 42 75 69 6c 64 20 66 61 69 6c 65 64
+alert_clear      c7 05 00
+keys_set_0_2     c7 06 05 00 01 00 ff 00
+keys_clear_all   c7 06 ff 01 00
+host_key_3_down  c7 81 03 01

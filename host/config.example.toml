@@ -1,0 +1,50 @@
+# greyd config: copy to ~/.config/greycode/config.toml. Saved edits apply within a second.
+#
+# A profile selects keymap layer `layer` (1-14; edit its keys in Vial) while a window whose
+# app id / X11 class contains one of `apps`, or whose title contains one of `titles`, has focus.
+# `labels` go on the OLED, row by row. `actions` are shell commands for the HOST_0..HOST_7 keys.
+#
+# A [[profile.state]] overrides layer, labels and colour (default: the profile's) while the app
+# in front reports that state, e.g. `greyctl state freecad Sketcher` or the FreeCAD add-on in
+# freecad/. State names match exactly; `labels` default to none. States have no own actions.
+
+# While one of these is in front greyd stays silent, so Vial has the HID interface to itself.
+pause_apps = ["vial"]
+
+# HOST_n commands when no profile has its own.
+[actions]
+0 = "grim -g \"$(slurp)\" - | wl-copy"
+1 = "makoctl dismiss --all"
+2 = "swaymsg 'output * power toggle'"
+
+[[profile]]
+name = "FreeCAD"
+apps = ["freecad"]
+layer = 1
+color = "#ff8800"
+labels = ["Iso", "Front", "Right", "Top", "Hide", "Delete", "Undo", "Redo", "Esc"]
+
+# The add-on reports the workbench (PartDesign, Part, TechDraw, ...) and "Sketcher" while a sketch
+# is open. PartDesign and the rest have no state here, so they keep layer 1 above.
+# Stock firmware layer 4 (SKETCHER) sends FreeCAD 1.x default sketcher shortcuts (a guess; check
+# Tools > Customize > Keyboard): line G L, circle G C, rectangle G R / coincident C, horizontal H,
+# vertical V / dimension D, toggle construction G N, Esc. The two-key ones are the SK_* keycodes.
+[[profile.state]]
+name = "Sketcher"
+layer = 4
+labels = ["Line", "Circle", "Rect", "Coinc", "Horiz", "Vert", "Dim", "Constr", "Esc"]
+
+[[profile]]
+name = "KiCad PCB"
+apps = ["pcbnew"]
+titles = ["PCB Editor"]
+layer = 2
+color = "#00b4ff"
+labels = ["Route", "Drag", "Move", "Rotate", "Via", "Props", "Fill", "Delete", "Esc"]
+
+[[profile]]
+name = "Browser"
+apps = ["firefox", "chromium", "google-chrome"]
+layer = 3
+color = "#8a5cff"
+labels = ["Reopen", "NewTab", "Close", "Back", "URL", "Fwd", "Zoom-", "Zoom0", "Zoom+"]

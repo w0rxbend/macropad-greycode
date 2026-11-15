@@ -1,0 +1,5 @@
+.build/
+gen/__pycache__/
+kicad/*-backups/
+kicad/fp-info-cache
+kicad/*.lck

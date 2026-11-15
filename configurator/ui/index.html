@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>greycode configurator</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <header class="bar">
+    <span class="mark">greycode</span>
+    <div class="link" aria-live="polite">
+      <span class="lamp" id="lamp-greyd"></span><span id="txt-greyd">greyd</span>
+      <span class="lamp" id="lamp-pad"></span><span id="txt-pad">pad</span>
+      <span class="front">In front <code id="txt-app">-</code></span>
+    </div>
+    <div class="bar-actions">
+      <button id="btn-vial" type="button" title="Keymaps are edited in Vial">Open Vial</button>
+      <button id="btn-reload" type="button" title="Drop unsaved changes and read the file again">Reload</button>
+      <button id="btn-save" type="button" class="primary" title="Ctrl+S">Save</button>
+    </div>
+  </header>
+
+  <div class="body">
+    <nav class="side" aria-label="Profiles">
+      <h2>Profiles</h2>
+      <ol id="profile-list"></ol>
+      <button id="btn-add" type="button" class="quiet">Add profile</button>
+      <button id="btn-global" type="button" class="side-item">Global settings</button>
+      <p class="path" id="txt-path"></p>
+    </nav>
+
+    <main>
+      <section id="profile-view" class="profile" hidden>
+        <div class="pad" id="pad">
+          <div class="pad-top">
+            <div class="oled-window"><canvas id="oled" width="128" height="64" role="img" aria-label="OLED preview"></canvas></div>
+            <div class="knob" aria-hidden="true"></div>
+          </div>
+          <div class="keys" id="keys"></div>
+          <div class="edge" aria-hidden="true"></div>
+        </div>
+
+        <div class="fields">
+          <div class="head">
+            <h1 id="profile-title"></h1>
+            <div class="head-actions">
+              <button id="btn-up" type="button">Move up</button>
+              <button id="btn-down" type="button">Move down</button>
+              <button id="btn-delete" type="button" class="danger">Delete</button>
+            </div>
+          </div>
+          <p class="hint">Order matters: the first profile that matches the window in front wins.</p>
+
+          <label class="field">Name <input id="f-name" maxlength="16" autocomplete="off"></label>
+          <div class="pair">
+            <label class="field">Layer <input id="f-layer" type="number" min="1" max="14" step="1"></label>
+            <label class="field">Colour <input id="f-color" type="color"></label>
+          </div>
+          <p id="layer-note" class="note warn" hidden></p>
+
+          <label class="field">Apps <input id="f-apps" class="code" autocomplete="off" spellcheck="false" placeholder="freecad, org.kde.krita"></label>
+          <button id="btn-focused" type="button" class="quiet">Use focused app</button>
+          <label class="field">Window titles <input id="f-titles" class="code" autocomplete="off" spellcheck="false" placeholder="PCB Editor"></label>
+          <p class="hint">Part of the app id or the title, any case, comma separated.</p>
+
+          <fieldset class="host">
+            <legend>HOST keys for this profile</legend>
+            <div id="profile-actions" class="host-grid"></div>
+          </fieldset>
+          <p id="other-keys" class="hint" hidden></p>
+        </div>
+      </section>
+
+      <section id="global-view" class="global" hidden>
+        <h1>Global settings</h1>
+        <label class="field">Pause while in front <input id="f-pause" class="code" autocomplete="off" spellcheck="false"></label>
+        <p class="hint">greyd sends nothing while one of these apps has focus, so Vial has the pad to itself.</p>
+        <fieldset class="host">
+          <legend>HOST keys when the profile has none</legend>
+          <div id="global-actions" class="host-grid"></div>
+        </fieldset>
+      </section>
+    </main>
+  </div>
+
+  <footer class="foot">
+    <div class="messages">
+      <p id="message" role="status"></p>
+      <ul id="warnings"></ul>
+    </div>
+    <form id="alert-form" class="alert">
+      <label class="visually-hidden" for="a-level">Alert level</label>
+      <select id="a-level">
+        <option value="info">info</option>
+        <option value="ok">ok</option>
+        <option value="warn" selected>warn</option>
+        <option value="error">error</option>
+      </select>
+      <label class="visually-hidden" for="a-text">Alert text</label>
+      <input id="a-text" maxlength="20" value="Test alert">
+      <button type="submit">Send test alert</button>
+    </form>
+  </footer>
+</body>
+</html>

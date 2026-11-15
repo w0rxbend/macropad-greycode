@@ -1,0 +1,75 @@
+# greycode: single source of truth for pins and layout.
+# Firmware is checked against it (tools/check_pins.py). The PCB generator and the CNC case
+# (later work, see docs/architecture.md) will read it too.
+# Nothing has been built. Every position is a design value; MEASURE tags need a caliper.
+
+[board]
+name = "greycode"
+mcu = "RP2040"
+flash = "W25Q128JVS"     # 16 MB QSPI, guess until the BOM is done
+usb = { vid = 0x1209, pid = 0x0001 }   # pid.codes test PID: private use only
+
+[keys]
+# Row by row from the top-left, one GPIO each (no matrix, no diodes).
+gpio = [2, 3, 4, 5, 6, 7, 8, 9, 10]
+pitch_mm = 19.05
+switch = "MX, Kailh hot-swap socket"
+
+[knob]
+part = "Alps EC11E18244AU"    # 18 detents, push switch
+gpio_a = 12
+gpio_b = 13
+gpio_push = 11
+pulses_per_detent = 4          # MEASURE: some EC11 variants give 2
+
+[display]
+part = "1.3in 128x64 OLED, SH1106, I2C"
+i2c = 1
+gpio_sda = 14
+gpio_scl = 15
+
+[leds]
+part = "SK6812MINI-E"          # per-key, reverse-mount under each switch
+edge_part = "SK6812 SIDE-A"    # side-emitting, on the PCB front edge, shine into the light strip
+gpio_data = 16                 # through a 74LVC1T45 to 5 V
+per_key = 9
+edge = 6
+edge_x = [8.0, 18.0, 28.0, 38.0, 48.0, 58.0]   # PCB coordinates, at the front edge (y = 0)
+
+# ---- Mechanical contract shared by pcb/ and cad/ -------------------------------------------
+# PCB coordinates: origin at the PCB's front-left corner, x right, y away from the user, mm.
+# Case z: 0 = underside of the base (feet excluded). Change these only in a change that
+# rebuilds both pcb/ and cad/.
+
+[pcb]
+width = 66.0
+depth = 96.0
+thickness = 1.6
+corner_radius = 1.5
+layers = 4
+bottom_z = 7.5                 # PCB underside above the case underside; hot-swap sockets and the
+                               # bottom-face USB-C receptacle hang below it
+# Key centres: columns x, rows y (row 0 = back row of keys, QMK matrix row 1)
+key_x = [13.95, 33.0, 52.05]
+key_y = [50.1, 31.05, 12.0]
+knob = [52.05, 76.0]
+oled_module_centre = [23.0, 77.5]   # 1.3in SH1106 module, MEASURE
+oled_module_size = [35.4, 33.5]     # module board, MEASURE
+oled_window_centre = [23.0, 80.0]   # centre of the active area, MEASURE
+usb_x = 33.0                        # USB-C receptacle centred here on the back edge (y = depth)
+usb_face = "bottom"                 # receptacle on the PCB underside, below the OLED module
+usb_mouth_overhang = 0.5            # receptacle mouth past the back edge
+# M2 holes, PCB to top shell standoffs (screws from below)
+holes = [[23.475, 21.525], [42.525, 21.525], [23.475, 40.575], [42.525, 40.575],
+         [4.0, 57.0], [62.0, 57.0], [62.0, 92.0]]
+hole_diameter = 2.2
+hole_keepout_diameter = 5.0    # no copper or parts on either face inside this
+
+[case]
+material = "6061-T6, bead blast, anodised"
+wall = 5.0                     # outer wall, PCB edge clearance excluded
+pcb_clearance = 0.5
+corner_radius = 6.0
+joint_z = 9.1                  # base rim top = top shell underside = PCB top
+plate_top_z = 14.1             # integrated MX plate, 1.5 mm web, 5.0 mm above the PCB top
+top_z = 17.6                   # top face

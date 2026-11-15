@@ -1,0 +1,62 @@
+tracks 892  vias 213  length 1330.1 mm  unrouted pads 0
+USB pair, connector to MCU: D+ 23.42 mm, D- 21.32 mm
+
+net                 mm vias
++1V1              6.59    6
++3V3             29.58   19
++5V              35.26   37
+BOOT             13.21    0
+CC1               6.83    0
+CC2               7.68    2
+ENC_A            41.37    4
+ENC_B            24.05    1
+ENC_SW           41.98    1
+GND              70.33   77
+I2C_SCL          26.31    2
+I2C_SDA          30.84    3
+KEY0             29.79    2
+KEY1             19.21    2
+KEY2             28.58    2
+KEY3             50.73    4
+KEY4             39.69    4
+KEY5             46.59    2
+KEY6             70.23    0
+KEY7             58.89    4
+KEY8             67.62    6
+LED_D0           21.85    2
+LED_D1           15.23    0
+LED_D10          13.29    0
+LED_D11          19.18    0
+LED_D12          13.29    0
+LED_D13          19.18    0
+LED_D14          13.29    0
+LED_D2           15.22    0
+LED_D3           54.94    2
+LED_D4           15.31    0
+LED_D5           15.31    0
+LED_D6           54.19    2
+LED_D7           15.23    0
+LED_D8           15.22    0
+LED_D9           51.76    2
+LED_DATA_3V3     25.00    4
+LED_DATA_5V       5.86    2
+QSPI_SCLK         5.29    0
+QSPI_SD0          7.20    2
+QSPI_SD1         13.97    2
+QSPI_SD2         12.01    2
+QSPI_SD3          4.86    0
+QSPI_SS          15.73    2
+RUN              27.30    2
+SWCLK            12.63    2
+SWDIO            12.67    2
+USB_DM            7.16    0
+USB_DP            7.53    0
+USB_D_N          14.16    3
+USB_D_P          15.88    0
+VBUS             26.79    2
+XIN               6.40    0
+XOUT              8.10    2
+XTAL_DRIVE        3.75    0
+
+unrouted:
+none

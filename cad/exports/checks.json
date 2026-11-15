@@ -1,0 +1,1038 @@
+{
+  "soundness": [
+    {
+      "part": "top",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 27492.9,
+      "ok": true
+    },
+    {
+      "part": "base",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 30858.89,
+      "ok": true
+    },
+    {
+      "part": "knob",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 5695.42,
+      "ok": true
+    },
+    {
+      "part": "light strip",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 331.58,
+      "ok": true
+    },
+    {
+      "part": "lens",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 666.59,
+      "ok": true
+    },
+    {
+      "part": "pcb",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 10091.93,
+      "ok": true
+    },
+    {
+      "part": "encoder",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 982.3,
+      "ok": true
+    },
+    {
+      "part": "oled module",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 3325.74,
+      "ok": true
+    },
+    {
+      "part": "usb receptacle",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 214.21,
+      "ok": true
+    },
+    {
+      "part": "usb plug",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 1430.66,
+      "ok": true
+    },
+    {
+      "part": "switch 1",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 1866.28,
+      "ok": true
+    },
+    {
+      "part": "socket 1",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 122.1,
+      "ok": true
+    },
+    {
+      "part": "switch 2",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 1866.28,
+      "ok": true
+    },
+    {
+      "part": "socket 2",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 122.1,
+      "ok": true
+    },
+    {
+      "part": "switch 3",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 1866.28,
+      "ok": true
+    },
+    {
+      "part": "socket 3",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 122.1,
+      "ok": true
+    },
+    {
+      "part": "switch 4",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 1866.28,
+      "ok": true
+    },
+    {
+      "part": "socket 4",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 122.1,
+      "ok": true
+    },
+    {
+      "part": "switch 5",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 1866.28,
+      "ok": true
+    },
+    {
+      "part": "socket 5",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 122.1,
+      "ok": true
+    },
+    {
+      "part": "switch 6",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 1866.28,
+      "ok": true
+    },
+    {
+      "part": "socket 6",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 122.1,
+      "ok": true
+    },
+    {
+      "part": "switch 7",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 1866.28,
+      "ok": true
+    },
+    {
+      "part": "socket 7",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 122.1,
+      "ok": true
+    },
+    {
+      "part": "switch 8",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 1866.28,
+      "ok": true
+    },
+    {
+      "part": "socket 8",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 122.1,
+      "ok": true
+    },
+    {
+      "part": "switch 9",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 1866.28,
+      "ok": true
+    },
+    {
+      "part": "socket 9",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 122.1,
+      "ok": true
+    },
+    {
+      "part": "screw 1",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 32.11,
+      "ok": true
+    },
+    {
+      "part": "screw 2",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 32.11,
+      "ok": true
+    },
+    {
+      "part": "screw 3",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 32.11,
+      "ok": true
+    },
+    {
+      "part": "screw 4",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 32.11,
+      "ok": true
+    },
+    {
+      "part": "screw 5",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 32.11,
+      "ok": true
+    },
+    {
+      "part": "screw 6",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 32.11,
+      "ok": true
+    },
+    {
+      "part": "screw 7",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 32.11,
+      "ok": true
+    },
+    {
+      "part": "keycap 1",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 842.18,
+      "ok": true
+    },
+    {
+      "part": "keycap 2",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 842.18,
+      "ok": true
+    },
+    {
+      "part": "keycap 3",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 842.18,
+      "ok": true
+    },
+    {
+      "part": "keycap 4",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 842.18,
+      "ok": true
+    },
+    {
+      "part": "keycap 5",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 842.18,
+      "ok": true
+    },
+    {
+      "part": "keycap 6",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 842.18,
+      "ok": true
+    },
+    {
+      "part": "keycap 7",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 842.18,
+      "ok": true
+    },
+    {
+      "part": "keycap 8",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 842.18,
+      "ok": true
+    },
+    {
+      "part": "keycap 9",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 842.18,
+      "ok": true
+    },
+    {
+      "part": "encoder shaft",
+      "solids": 1,
+      "valid": true,
+      "volume_mm3": 398.07,
+      "ok": true
+    }
+  ],
+  "interference": [
+    {
+      "state": "at rest",
+      "pairs": 990,
+      "clashes": []
+    },
+    {
+      "state": "keys and knob pressed (moving parts only)",
+      "pairs": 429,
+      "clashes": []
+    }
+  ],
+  "clearances": [
+    {
+      "name": "keycaps at rest to top shell",
+      "value_mm": 2.634,
+      "minimum_mm": 0.4,
+      "ok": true
+    },
+    {
+      "name": "keycaps pressed to top shell",
+      "value_mm": 0.828,
+      "minimum_mm": 0.4,
+      "ok": true
+    },
+    {
+      "name": "knob pressed to top shell",
+      "value_mm": 0.3,
+      "minimum_mm": 0.2,
+      "ok": true
+    },
+    {
+      "name": "hot-swap sockets to base",
+      "value_mm": 1.511,
+      "minimum_mm": 0.3,
+      "ok": true
+    },
+    {
+      "name": "USB plug overmold to top shell",
+      "value_mm": 0.25,
+      "minimum_mm": 0.2,
+      "ok": true
+    },
+    {
+      "name": "USB plug overmold to base",
+      "value_mm": 0.25,
+      "minimum_mm": 0.2,
+      "ok": true
+    },
+    {
+      "name": "USB plug overmold above the case underside (table plane, feet excluded)",
+      "value_mm": 2.65,
+      "minimum_mm": 0.0,
+      "ok": true
+    },
+    {
+      "name": "USB plug overmold in the opening (radial, inside the back wall)",
+      "value_mm": 0.25,
+      "minimum_mm": 0.2,
+      "ok": true
+    },
+    {
+      "name": "standoff and base boss inside pcb.hole_keepout_diameter (radial margin)",
+      "value_mm": 0.2,
+      "minimum_mm": 0.0,
+      "ok": true
+    },
+    {
+      "name": "M2 screw tip below end of thread",
+      "value_mm": 0.92,
+      "minimum_mm": 0.2,
+      "ok": true
+    },
+    {
+      "name": "M2 thread engagement in standoff",
+      "value_mm": 2.08,
+      "minimum_mm": 2.0,
+      "ok": true
+    }
+  ],
+  "walls": [
+    {
+      "part": "top",
+      "samples": 6000,
+      "thinnest_mm": 1.199,
+      "at": [
+        40.85,
+        20.43,
+        9.5
+      ],
+      "minimum_mm": 1.0,
+      "ok": true
+    },
+    {
+      "part": "base",
+      "samples": 6000,
+      "thinnest_mm": 1.099,
+      "at": [
+        63.98,
+        90.83,
+        5.47
+      ],
+      "minimum_mm": 1.0,
+      "ok": true
+    },
+    {
+      "part": "knob",
+      "samples": 6000,
+      "thinnest_mm": 1.0,
+      "at": [
+        49.87,
+        77.28,
+        34.0
+      ],
+      "minimum_mm": 1.0,
+      "ok": true
+    }
+  ],
+  "feature_gaps": [
+    {
+      "part": "top",
+      "between": [
+        "key well",
+        "oled board pocket"
+      ],
+      "metal_mm": 1.001,
+      "minimum_mm": 1.0,
+      "ok": true,
+      "next": [
+        {
+          "between": [
+            "key well",
+            "M2 standoff 1 envelope"
+          ],
+          "metal_mm": 1.019
+        },
+        {
+          "between": [
+            "key well",
+            "M2 standoff 2 envelope"
+          ],
+          "metal_mm": 1.019
+        },
+        {
+          "between": [
+            "key well",
+            "M2 standoff 3 envelope"
+          ],
+          "metal_mm": 1.019
+        }
+      ]
+    },
+    {
+      "part": "base",
+      "between": [
+        "foot 4",
+        "M2 countersunk 7 envelope"
+      ],
+      "metal_mm": 1.416,
+      "minimum_mm": 1.0,
+      "ok": true,
+      "next": [
+        {
+          "between": [
+            "interior pocket",
+            "foot 1"
+          ],
+          "metal_mm": 1.8
+        },
+        {
+          "between": [
+            "interior pocket",
+            "foot 2"
+          ],
+          "metal_mm": 1.8
+        },
+        {
+          "between": [
+            "interior pocket",
+            "foot 3"
+          ],
+          "metal_mm": 1.8
+        }
+      ]
+    },
+    {
+      "part": "knob",
+      "between": [
+        "flutes",
+        "M3 set screw envelope"
+      ],
+      "metal_mm": 1.062,
+      "minimum_mm": 1.0,
+      "ok": true,
+      "next": [
+        {
+          "between": [
+            "counterbore",
+            "M3 set screw envelope"
+          ],
+          "metal_mm": 1.1
+        },
+        {
+          "between": [
+            "d bore",
+            "flutes"
+          ],
+          "metal_mm": 7.475
+        },
+        {
+          "between": [
+            "counterbore",
+            "flutes"
+          ],
+          "metal_mm": 8.106
+        }
+      ]
+    }
+  ],
+  "corners": [
+    {
+      "part": "top",
+      "features": [
+        {
+          "feature": "light channel",
+          "corners": 2,
+          "radius_mm": 0.5,
+          "wall_mm": 1.5,
+          "reach_mm": 1.5,
+          "from": "bottom"
+        },
+        {
+          "feature": "oled window",
+          "corners": 4,
+          "radius_mm": 0.5,
+          "wall_mm": 1.7,
+          "reach_mm": 2.7,
+          "from": "top"
+        },
+        {
+          "feature": "lens recess",
+          "corners": 4,
+          "radius_mm": 1.0,
+          "wall_mm": 1.0,
+          "reach_mm": 1.0,
+          "from": "top"
+        },
+        {
+          "feature": "encoder pocket",
+          "corners": 4,
+          "radius_mm": 1.5,
+          "wall_mm": 3.3,
+          "reach_mm": 6.8,
+          "from": "bottom"
+        },
+        {
+          "feature": "key well",
+          "corners": 4,
+          "radius_mm": 1.5,
+          "wall_mm": 3.5,
+          "reach_mm": 3.5,
+          "from": "top"
+        },
+        {
+          "feature": "oled board pocket",
+          "corners": 4,
+          "radius_mm": 1.5,
+          "wall_mm": 0.5,
+          "reach_mm": 4.0,
+          "from": "bottom"
+        },
+        {
+          "feature": "oled glass pocket",
+          "corners": 4,
+          "radius_mm": 1.5,
+          "wall_mm": 1.8,
+          "reach_mm": 5.8,
+          "from": "bottom"
+        },
+        {
+          "feature": "switch 1",
+          "corners": 4,
+          "radius_mm": 1.5,
+          "wall_mm": 1.5,
+          "reach_mm": 5.0,
+          "from": "top"
+        },
+        {
+          "feature": "switch 2",
+          "corners": 4,
+          "radius_mm": 1.5,
+          "wall_mm": 1.5,
+          "reach_mm": 5.0,
+          "from": "top"
+        },
+        {
+          "feature": "switch 3",
+          "corners": 4,
+          "radius_mm": 1.5,
+          "wall_mm": 1.5,
+          "reach_mm": 5.0,
+          "from": "top"
+        },
+        {
+          "feature": "switch 4",
+          "corners": 4,
+          "radius_mm": 1.5,
+          "wall_mm": 1.5,
+          "reach_mm": 5.0,
+          "from": "top"
+        },
+        {
+          "feature": "switch 5",
+          "corners": 4,
+          "radius_mm": 1.5,
+          "wall_mm": 1.5,
+          "reach_mm": 5.0,
+          "from": "top"
+        },
+        {
+          "feature": "switch 6",
+          "corners": 4,
+          "radius_mm": 1.5,
+          "wall_mm": 1.5,
+          "reach_mm": 5.0,
+          "from": "top"
+        },
+        {
+          "feature": "switch 7",
+          "corners": 4,
+          "radius_mm": 1.5,
+          "wall_mm": 1.5,
+          "reach_mm": 5.0,
+          "from": "top"
+        },
+        {
+          "feature": "switch 8",
+          "corners": 4,
+          "radius_mm": 1.5,
+          "wall_mm": 1.5,
+          "reach_mm": 5.0,
+          "from": "top"
+        },
+        {
+          "feature": "switch 9",
+          "corners": 4,
+          "radius_mm": 1.5,
+          "wall_mm": 1.5,
+          "reach_mm": 5.0,
+          "from": "top"
+        },
+        {
+          "feature": "cavity",
+          "corners": 4,
+          "radius_mm": 2.0,
+          "wall_mm": 3.5,
+          "reach_mm": 3.5,
+          "from": "bottom"
+        }
+      ],
+      "failing": [],
+      "sharp_edges": [],
+      "exempt": {},
+      "minimum_mm": 0.5,
+      "deep_minimum_mm": 1.5,
+      "ok": true
+    },
+    {
+      "part": "base",
+      "features": [
+        {
+          "feature": "interior pocket",
+          "corners": 4,
+          "radius_mm": 2.0,
+          "wall_mm": 6.7,
+          "reach_mm": 6.7,
+          "from": "top"
+        }
+      ],
+      "failing": [],
+      "sharp_edges": [],
+      "exempt": {},
+      "minimum_mm": 0.5,
+      "deep_minimum_mm": 1.5,
+      "ok": true
+    },
+    {
+      "part": "knob",
+      "features": [
+        {
+          "feature": "d bore",
+          "corners": 1,
+          "radius_mm": 3.025,
+          "wall_mm": 12.4,
+          "reach_mm": 15.6,
+          "from": "bottom"
+        }
+      ],
+      "failing": [],
+      "sharp_edges": [],
+      "exempt": {
+        "flutes: ball end mill along the knob axis (4th axis or live tooling), not a vertical cutter": 30,
+        "D-bore flat corners: broached": 2
+      },
+      "minimum_mm": 0.5,
+      "deep_minimum_mm": 1.5,
+      "ok": true
+    }
+  ],
+  "screw_holes": [
+    {
+      "part": "top",
+      "hole": "M2 standoff 1",
+      "metal_mm": 1.0,
+      "minimum_mm": 1.0,
+      "ok": true
+    },
+    {
+      "part": "top",
+      "hole": "M2 standoff 2",
+      "metal_mm": 1.0,
+      "minimum_mm": 1.0,
+      "ok": true
+    },
+    {
+      "part": "top",
+      "hole": "M2 standoff 3",
+      "metal_mm": 1.0,
+      "minimum_mm": 1.0,
+      "ok": true
+    },
+    {
+      "part": "top",
+      "hole": "M2 standoff 4",
+      "metal_mm": 1.0,
+      "minimum_mm": 1.0,
+      "ok": true
+    },
+    {
+      "part": "top",
+      "hole": "M2 standoff 5",
+      "metal_mm": 1.0,
+      "minimum_mm": 1.0,
+      "ok": true
+    },
+    {
+      "part": "top",
+      "hole": "M2 standoff 6",
+      "metal_mm": 1.0,
+      "minimum_mm": 1.0,
+      "ok": true
+    },
+    {
+      "part": "top",
+      "hole": "M2 standoff 7",
+      "metal_mm": 1.0,
+      "minimum_mm": 1.0,
+      "ok": true
+    },
+    {
+      "part": "base",
+      "hole": "M2 countersunk 1",
+      "metal_mm": 1.094,
+      "minimum_mm": 1.0,
+      "ok": true
+    },
+    {
+      "part": "base",
+      "hole": "M2 countersunk 2",
+      "metal_mm": 1.094,
+      "minimum_mm": 1.0,
+      "ok": true
+    },
+    {
+      "part": "base",
+      "hole": "M2 countersunk 3",
+      "metal_mm": 1.094,
+      "minimum_mm": 1.0,
+      "ok": true
+    },
+    {
+      "part": "base",
+      "hole": "M2 countersunk 4",
+      "metal_mm": 1.094,
+      "minimum_mm": 1.0,
+      "ok": true
+    },
+    {
+      "part": "base",
+      "hole": "M2 countersunk 5",
+      "metal_mm": 1.094,
+      "minimum_mm": 1.0,
+      "ok": true
+    },
+    {
+      "part": "base",
+      "hole": "M2 countersunk 6",
+      "metal_mm": 1.094,
+      "minimum_mm": 1.0,
+      "ok": true
+    },
+    {
+      "part": "base",
+      "hole": "M2 countersunk 7",
+      "metal_mm": 1.094,
+      "minimum_mm": 1.0,
+      "ok": true
+    },
+    {
+      "part": "knob",
+      "hole": "M3 set screw",
+      "metal_mm": 1.094,
+      "minimum_mm": 1.0,
+      "ok": true
+    }
+  ],
+  "self_test": [
+    {
+      "name": "clash: overlapping boxes",
+      "value": [
+        {
+          "parts": [
+            "a",
+            "b"
+          ],
+          "volume_mm3": 100.0
+        }
+      ],
+      "expected_fault": true,
+      "found_fault": true,
+      "ok": true
+    },
+    {
+      "name": "clash: touching boxes",
+      "value": [],
+      "expected_fault": false,
+      "found_fault": false,
+      "ok": true
+    },
+    {
+      "name": "wall: pocket 0.6 mm from a side",
+      "value": 0.6,
+      "expected_fault": true,
+      "found_fault": true,
+      "ok": true
+    },
+    {
+      "name": "wall: pocket 1.5 mm from a side",
+      "value": 1.5,
+      "expected_fault": false,
+      "found_fault": false,
+      "ok": true
+    },
+    {
+      "name": "corner: pocket R0.0 2.0 mm deep",
+      "value": [],
+      "expected_fault": true,
+      "found_fault": true,
+      "ok": true
+    },
+    {
+      "name": "corner: pocket R0.3 2.0 mm deep",
+      "value": [
+        {
+          "feature": "",
+          "corners": 4,
+          "radius_mm": 0.3,
+          "wall_mm": 2.0,
+          "reach_mm": 2.0,
+          "from": "top"
+        }
+      ],
+      "expected_fault": true,
+      "found_fault": true,
+      "ok": true
+    },
+    {
+      "name": "corner: pocket R1.0 2.0 mm deep",
+      "value": [
+        {
+          "feature": "",
+          "corners": 4,
+          "radius_mm": 1.0,
+          "wall_mm": 2.0,
+          "reach_mm": 2.0,
+          "from": "top"
+        }
+      ],
+      "expected_fault": false,
+      "found_fault": false,
+      "ok": true
+    },
+    {
+      "name": "corner: pocket R1.0 4.0 mm deep",
+      "value": [
+        {
+          "feature": "",
+          "corners": 4,
+          "radius_mm": 1.0,
+          "wall_mm": 4.0,
+          "reach_mm": 4.0,
+          "from": "top"
+        }
+      ],
+      "expected_fault": true,
+      "found_fault": true,
+      "ok": true
+    },
+    {
+      "name": "corner: pocket R1.5 4.0 mm deep",
+      "value": [
+        {
+          "feature": "",
+          "corners": 4,
+          "radius_mm": 1.5,
+          "wall_mm": 4.0,
+          "reach_mm": 4.0,
+          "from": "top"
+        }
+      ],
+      "expected_fault": false,
+      "found_fault": false,
+      "ok": true
+    },
+    {
+      "name": "corner: R1.0 pocket 2 mm deep in a 2 mm pocket",
+      "value": [
+        {
+          "feature": "",
+          "corners": 4,
+          "radius_mm": 1.0,
+          "wall_mm": 2.0,
+          "reach_mm": 4.0,
+          "from": "top"
+        }
+      ],
+      "expected_fault": true,
+      "found_fault": true,
+      "ok": true
+    },
+    {
+      "name": "corner: R1.5 pocket 2 mm deep in a 2 mm pocket",
+      "value": [],
+      "expected_fault": false,
+      "found_fault": false,
+      "ok": true
+    },
+    {
+      "name": "screw hole: M2 1.6 mm from a side",
+      "value": 0.594,
+      "expected_fault": true,
+      "found_fault": true,
+      "ok": true
+    },
+    {
+      "name": "screw hole: M2 4.0 mm from a side",
+      "value": 2.0,
+      "expected_fault": false,
+      "found_fault": false,
+      "ok": true
+    },
+    {
+      "name": "soundness: one box",
+      "value": null,
+      "expected_fault": false,
+      "found_fault": false,
+      "ok": true
+    },
+    {
+      "name": "soundness: two separate boxes",
+      "value": null,
+      "expected_fault": true,
+      "found_fault": true,
+      "ok": true
+    },
+    {
+      "name": "metal between two pockets 0.5 mm apart",
+      "value": 0.5,
+      "expected_fault": true,
+      "found_fault": true,
+      "ok": true
+    },
+    {
+      "name": "metal between two pockets 2.0 mm apart",
+      "value": 2.0,
+      "expected_fault": false,
+      "found_fault": false,
+      "ok": true
+    },
+    {
+      "name": "clearance: parts 0.3 mm apart",
+      "value": 0.3,
+      "expected_fault": true,
+      "found_fault": true,
+      "ok": true
+    },
+    {
+      "name": "clearance: parts 0.6 mm apart",
+      "value": 0.6,
+      "expected_fault": false,
+      "found_fault": false,
+      "ok": true
+    },
+    {
+      "name": "clash: pin through a plate",
+      "value": [
+        {
+          "parts": [
+            "plate",
+            "pin"
+          ],
+          "volume_mm3": 3.142
+        }
+      ],
+      "expected_fault": true,
+      "found_fault": true,
+      "ok": true
+    }
+  ]
+}

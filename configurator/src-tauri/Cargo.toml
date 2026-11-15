@@ -1,0 +1,21 @@
+[package]
+name = "greycode-configurator"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.80"
+description = "Desktop editor for greyd's profiles (Tauri 2 shell over greyconf)"
+license = "MIT"
+publish = false
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+greyconf = { path = "../core" }
+# Only greyd::control::socket_path is used here.
+greyd = { path = "../../host" }
+tauri = { version = "2", features = [] }
+
+[profile.release]
+lto = true
+strip = true

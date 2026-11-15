@@ -1,0 +1,97 @@
+{
+    "keyboard_name": "greycode",
+    "manufacturer": "worxbend",
+    "url": "https://github.com/w0rxbend/macropad-greycode",
+    "maintainer": "w0rxbend",
+    "usb": {
+        "vid": "0x1209",
+        "pid": "0x0001",
+        "device_version": "0.1.0"
+    },
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": false,
+        "nkro": true,
+        "encoder": true,
+        "rgb_matrix": true,
+        "oled": true
+    },
+    "bootmagic": {
+        "matrix": [1, 0]
+    },
+    "matrix_pins": {
+        "direct": [
+            [null, null, "GP11"],
+            ["GP2", "GP3", "GP4"],
+            ["GP5", "GP6", "GP7"],
+            ["GP8", "GP9", "GP10"]
+        ]
+    },
+    "encoder": {
+        "rotary": [
+            {"pin_a": "GP12", "pin_b": "GP13", "resolution": 4}
+        ]
+    },
+    "ws2812": {
+        "pin": "GP16",
+        "driver": "vendor"
+    },
+    "rgb_matrix": {
+        "driver": "ws2812",
+        "max_brightness": 160,
+        "default": {
+            "animation": "solid_color",
+            "hue": 0,
+            "sat": 0,
+            "val": 96
+        },
+        "animations": {
+            "breathing": true,
+            "cycle_left_right": true,
+            "cycle_up_down": true,
+            "gradient_up_down": true,
+            "band_val": true,
+            "solid_reactive_simple": true,
+            "solid_reactive": true,
+            "solid_splash": true,
+            "typing_heatmap": true,
+            "digital_rain": true
+        },
+        "layout": [
+            {"matrix": [1, 0], "x": 0,   "y": 0, "flags": 4},
+            {"matrix": [1, 1], "x": 112, "y": 0, "flags": 4},
+            {"matrix": [1, 2], "x": 224, "y": 0, "flags": 4},
+            {"matrix": [2, 0], "x": 0,   "y": 26, "flags": 4},
+            {"matrix": [2, 1], "x": 112, "y": 26, "flags": 4},
+            {"matrix": [2, 2], "x": 224, "y": 26, "flags": 4},
+            {"matrix": [3, 0], "x": 0,   "y": 52, "flags": 4},
+            {"matrix": [3, 1], "x": 112, "y": 52, "flags": 4},
+            {"matrix": [3, 2], "x": 224, "y": 52, "flags": 4},
+            {"x": 0,   "y": 64,  "flags": 2},
+            {"x": 45,  "y": 64,  "flags": 2},
+            {"x": 90,  "y": 64,  "flags": 2},
+            {"x": 134, "y": 64,  "flags": 2},
+            {"x": 179, "y": 64,  "flags": 2},
+            {"x": 224, "y": 64,  "flags": 2}
+        ]
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label": "knob", "matrix": [0, 2], "x": 2, "y": 0},
+                {"matrix": [1, 0], "x": 0, "y": 1},
+                {"matrix": [1, 1], "x": 1, "y": 1},
+                {"matrix": [1, 2], "x": 2, "y": 1},
+                {"matrix": [2, 0], "x": 0, "y": 2},
+                {"matrix": [2, 1], "x": 1, "y": 2},
+                {"matrix": [2, 2], "x": 2, "y": 2},
+                {"matrix": [3, 0], "x": 0, "y": 3},
+                {"matrix": [3, 1], "x": 1, "y": 3},
+                {"matrix": [3, 2], "x": 2, "y": 3}
+            ]
+        }
+    }
+}
